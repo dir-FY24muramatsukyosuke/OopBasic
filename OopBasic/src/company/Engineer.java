@@ -14,7 +14,6 @@ public class Engineer extends Employee {
                 "、プログラミング言語：" + programmingLanguage);
     }
 
-    // 会議に参加するメソッドをオーバーライド
     @Override
     public void joinMeeting() {
         department.meeting();
